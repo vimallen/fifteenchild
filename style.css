@@ -1,0 +1,122 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Dave Allen
+ Author URI:   http://daveallengraphics.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         responsive
+ Text Domain:  twenty-fifteen-child
+*/
+/* =Type sizes
+
+1  / 16 = 0.0625em;	(1px equivalent)
+5  / 16 = 0.3125em; (5px equivalent)
+8  / 16 = 0.5em;	(8px equivalent)
+9  / 16 = 0.5625em;	(9px equivalent)
+10 / 16 = 0.625em;	(10px equivalent)
+11 / 16 = 0.68725;	(11px equivalent)
+12 / 16 = 0.75em;	(12px equivalent)
+14 / 16	= 0.875em; 	(14px equivalent)
+15 / 16 = 0.9375em;	(15px equivalent)
+16 / 16	= 1em; 		(16px equivalent)
+18 / 16 = 1.125em; 	(18px equivalent)
+20 / 16 = 1.25em;	(20px equivalent)
+21 / 16 = 1.3125em; (21px equivalent)
+22 / 16 = 1.375em;	(22px equivalent)
+24 / 16 = 1.5em; 	(24px equivalent)
+26 / 16 = 1.625em;	(26px equivalent)
+28 / 16 = 1.75em;	(28px equivalent)
+30 / 16 = 1.875em; 	(30px equivalent)
+32 / 16 = 2em;       (32px equivalent)
+34 / 16 = 2.125em;	(34px equivalent)
+36 / 16 = 2.253em;	(36px equivalent)
+
+*/
+body {
+  background-color: #ffffff; }
+
+.site-header {
+  margin: 0; }
+
+.icon-logo {
+  width: 12.5em;
+  height: 4.0625em;
+  float: left;
+  margin: 1em 1em 4em 1em; }
+  .icon-logo > svg {
+    display: inline-block;
+    width: 12.5em;
+    height: 4.0625em;
+    vertical-align: middle; }
+
+.grid {
+  /* background: gray; */
+  margin: 0 0 1em 0;
+  padding-left: 0; }
+
+@media only screen and (min-width: 48em) {
+  #page .site {
+    padding: 0; }
+
+  .site-header {
+    padding: 1em 3% 3em 3%; }
+
+  .icon-logo {
+    margin-top: -2em;
+    margin-bottom: 4em; }
+
+  [class='col-1-3'] {
+    float: left;
+    width: 25%;
+    padding-right: 1.25em; }
+    .grid [class='col-1-3']:last-of-type {
+      padding-right: 1.25em; }
+
+  /* Opt-in outside padding */
+  .grid-pad {
+    padding: 1.25em 0 1.25em 1.25em; }
+    .grid-pad [class*='col-']:last-of-type {
+      padding-right: 1.25em; } }
+/* WIDESCREEN */
+/* Increased body size for legibility */
+@media only screen and (min-width: 87.5em) {
+  body {
+    font-size: 120%; } }
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix:before, .grid:before,
+.clearfix:after,
+.grid:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after, .grid:after {
+  clear: both; }
