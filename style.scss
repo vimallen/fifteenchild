@@ -54,7 +54,7 @@ body  {
 .icon-logo {
   width: 12.5em;
   height: 4.0625em;
-  float: left;
+  // float: left;
 
   margin: 1em 1em 4em 1em;
 
@@ -95,15 +95,14 @@ body  {
 
 
 @media only screen and (min-width: 48em) /* 768px */ {
-  #page .site  {
-    padding: 0;
-  }
+  // #page .site  {
+  //   padding: 0;
+  // }
   .site-header  {
       padding: 1em 3% 3em 3%;
   }
   .icon-logo  {
-    margin-top: -2em;
-    margin-bottom: 4em;
+    padding-bottom: 4em;
   }
 
   [class='col-1-3'] {

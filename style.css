@@ -45,7 +45,6 @@ body {
 .icon-logo {
   width: 12.5em;
   height: 4.0625em;
-  float: left;
   margin: 1em 1em 4em 1em; }
   .icon-logo > svg {
     display: inline-block;
@@ -59,15 +58,11 @@ body {
   padding-left: 0; }
 
 @media only screen and (min-width: 48em) {
-  #page .site {
-    padding: 0; }
-
   .site-header {
     padding: 1em 3% 3em 3%; }
 
   .icon-logo {
-    margin-top: -2em;
-    margin-bottom: 4em; }
+    padding-bottom: 4em; }
 
   [class='col-1-3'] {
     float: left;
