@@ -85,7 +85,7 @@ body {
   display: none !important;
   visibility: hidden; }
 
-.visuallyhidden {
+.visuallyhidden, .home .entry-header {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -95,8 +95,9 @@ body {
   position: absolute;
   width: 1px; }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .home .focusable.entry-header:active,
+.visuallyhidden.focusable:focus,
+.home .focusable.entry-header:focus {
   clip: auto;
   height: auto;
   margin: 0;

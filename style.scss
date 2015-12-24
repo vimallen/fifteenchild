@@ -47,6 +47,10 @@ body  {
   background-color: #ffffff;
 }
 
+.home .entry-header { // hide site title on home page
+@extend .visuallyhidden;
+}
+
 .site-header  {
   margin: 0;
 }
