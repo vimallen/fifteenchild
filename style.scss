@@ -42,7 +42,10 @@
 // variables
 
 $pad: 1.25em;
-
+//  colours
+.sidebar  {
+    background-color: silver;
+}
 body  {
   background-color: #ffffff;
 }
@@ -111,7 +114,7 @@ body  {
 
   [class='col-1-3'] {
   	float: left;
-  	width: 25%;
+  	width: 50%;
     padding-right: $pad;
     .grid &:last-of-type {
     	padding-right: $pad;

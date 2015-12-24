@@ -4,7 +4,6 @@
              wp_enqueue_style( 'parent-style',    get_template_directory_uri().'/style.css' );
        }
 
-// Creates contact post type
   register_post_type('panels-home', array(
   'label' => 'Panels-home',
   'public' => true,
@@ -25,4 +24,4 @@
   'author',
   'page-attributes',)
   ) );
-?><!--closing-->
+?>

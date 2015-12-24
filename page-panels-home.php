@@ -32,7 +32,7 @@ get_header(); ?>
 		     ?>
 
 		<div class="col-1-3">
-			<div class="module-contact">
+			<div class="panel-home">
 				<h4 class="underline-dashed"><?php the_title(); ?></h4>
 			<?php the_post_thumbnail(); ?> </a>
 		<?php the_content(); ?>
