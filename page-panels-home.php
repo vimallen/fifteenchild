@@ -16,7 +16,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 		<div class="grid grid-pad main" >
-		<h2><?php the_title(); ?></h2>
+		<!-- <h2><?php the_title(); ?></h2> -->
 		<?php
 		          $loop = new WP_Query(array('post_type' => 'panels-home',
 		          'posts_per_page' => 10,
@@ -33,7 +33,7 @@ get_header(); ?>
 
 		<div class="col-1-3">
 			<div class="panel-home">
-				<h4 class="underline-dashed"><?php the_title(); ?></h4>
+				<h4><?php the_title(); ?></h4>
 			<?php the_post_thumbnail(); ?> </a>
 		<?php the_content(); ?>
 		</div><!-- module -->
