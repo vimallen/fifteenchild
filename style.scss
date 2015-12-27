@@ -58,6 +58,29 @@ body  {
   margin: 0;
 }
 
+// Links
+a.social:hover   {
+          border-bottom: none; // Not underline as expected
+}
+
+.social {
+    > svg {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        vertical-align: middle;
+		    fill: #409BBE;
+        // margin-left: 2em;
+    }
+}
+.social:hover	{
+	> svg {
+				fill: #981405;
+}
+}
+
+
+
 .icon-logo {
   width: 10.5em;
   height: 3.06em;
