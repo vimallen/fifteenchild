@@ -75,6 +75,17 @@ a.social:hover {
   margin: 0 0 1em 0;
   padding-left: 0; }
 
+.meteor-slides .meteor-buttons {
+  bottom: -15px;
+  box-sizing: initial;
+  height: 9px;
+  left: 0;
+  margin-left: 4em;
+  padding: 6px 0 0;
+  position: absolute;
+  width: 100%;
+  z-index: 999; }
+
 @media only screen and (min-width: 48em) {
   .site-header {
     padding: 1em 3% 3em 3%; }

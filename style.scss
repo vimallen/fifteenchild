@@ -60,9 +60,6 @@ body  {
 
 // Links
 
-
-
-
 a.social:hover   {
           border-bottom: none; // Not underline as expected
 }
@@ -106,6 +103,18 @@ a.social:hover   {
 		@extend .clearfix;
 		padding-left: 0;
 
+}
+
+.meteor-slides .meteor-buttons {
+    bottom: -15px;
+		box-sizing: initial;
+    height: 9px;
+    left: 0;
+    margin-left: 4em;
+    padding: 6px 0 0;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
 }
 
 // Media queries-----------------------------------------
