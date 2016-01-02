@@ -60,6 +60,11 @@ body  {
 
 // Links
 
+// a:visited { color: #444; }
+a:hover { color: #981405; text-decoration: underline; }
+
+a	{text-decoration:none;}
+
 a.social:hover   {
           border-bottom: none; // Not underline as expected
 }
@@ -130,14 +135,13 @@ a.social:hover   {
   transform: translate(-20%, -20%);
   text-transform: uppercase;
 }
+
+.panel-home img {
+  margin-bottom: 1em;
+}
 // Media queries-----------------------------------------
 
-
-
 @media only screen and (min-width: 30em) /* 480px */{
-
-
-
 
 }
 
