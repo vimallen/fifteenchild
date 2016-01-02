@@ -67,6 +67,7 @@ a	{text-decoration:none;}
 
 a.social:hover   {
           border-bottom: none; // Not underline as expected
+          text-decoration: none;
 }
 
 .social {

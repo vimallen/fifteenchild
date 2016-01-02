@@ -53,7 +53,8 @@ a {
   text-decoration: none; }
 
 a.social:hover {
-  border-bottom: none; }
+  border-bottom: none;
+  text-decoration: none; }
 
 .social > svg {
   display: inline-block;
