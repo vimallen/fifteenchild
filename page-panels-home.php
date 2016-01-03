@@ -30,6 +30,8 @@ get_header(); ?>
 		// End the loop.
 	endwhile;
 	?>
+
+
 		<div class="grid grid-pad" >
 		<!-- <h2><?php the_title(); ?></h2> -->
 		<?php
@@ -57,7 +59,7 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 		</div><!--grid-->
-
+		
 	</main><!-- .site-main -->
 
 
