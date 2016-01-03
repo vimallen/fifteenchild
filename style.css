@@ -94,16 +94,8 @@ a.social:hover {
   width: auto;
   z-index: 999; }
 
-.panel-home {
-  position: relative; }
-
 .panel-home h4 {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  color: white;
-  font-size: 4rem;
-  transform: translate(-20%, -20%);
+  font-size: 1.375em;
   text-transform: uppercase; }
 
 .panel-home img {
