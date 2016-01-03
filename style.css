@@ -111,15 +111,15 @@ a.social:hover {
   [class='col-1-3'] {
     float: left;
     width: 50%;
-    padding-right: 1.25em; }
+    padding-right: 10%; }
     .grid [class='col-1-3']:last-of-type {
-      padding-right: 1.25em; }
+      padding-right: 10%; }
 
   /* Opt-in outside padding */
   .grid-pad {
-    padding: 1.25em 0 1.25em 1.25em; }
+    padding: 10% 0 10% 10%; }
     .grid-pad [class*='col-']:last-of-type {
-      padding-right: 1.25em; } }
+      padding-right: 10%; } }
 /* WIDESCREEN */
 /* Increased body size for legibility */
 @media only screen and (min-width: 87.5em) {
