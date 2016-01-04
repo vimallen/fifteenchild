@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Object testing</title>
+  <style>
+  .media {
+  margin:10px;
+}
+
+.media, .media__body {
+  overflow:hidden;
+  _overflow:visible;
+  zoom:1;
+}
+
+.media .media__img {
+  float:left;
+  margin-right: 10px;
+}
+
+.media .media__img img{
+  display:block;
+}
+
+.media .imgExt{
+  float:right;
+  margin-left: 10px;
+}
+
+/* Common styling for demo purposes */
+
+body{
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3);
+}
+
+.media, .flag{
+  background: #f5f5f5;
+  border :1px solid #d5d5d5;
+  padding: 10px;
+}
+
+p{
+  margin-top: 0;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="media">
+    <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/" class="media__img">
+      <img src="http://s.cdpn.io/13060/megaman_72x72.png" alt="Megaman" />
+    </a>
+    <div class="media__body">
+      <p><strong>This is a media object</strong></p>
+      <p>Bacon ipsum dolor sit amet shankle swine cow, shoulder brisket pork belly leberkas tail ham shank beef ribs. Shankle jowl brisket beef filet mignon ribeye frankfurter pork loin tongue short ribs corned beef venison tenderloin. Pork loin swine hamburger, turducken tail boudin shoulder doner pig flank meatloaf ham pancetta t-bone shank.</p>
+      <p>Drumstick biltong tenderloin bacon, ball tip shankle chicken short loin salami venison beef kielbasa pork loin shoulder. Meatball cow ham ribeye.</p>
+    </div>
+  </div>
+</body>
+</html>
