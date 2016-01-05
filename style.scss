@@ -107,7 +107,7 @@ a.social:hover   {
 		/* background: gray; */
 		margin: 0 0 1em 0;
 		@extend .clearfix;
-		padding-left: 0;
+		// padding-left: 0;
 
 }
 
@@ -127,7 +127,7 @@ a.social:hover   {
 //   position:relative;
 // }
 
-.panel-home h4 {
+.media h4 {
   // position: absolute;
   // top: 20%;
   // left: 20%;
@@ -140,6 +140,10 @@ a.social:hover   {
 .panel-home img {
   margin-bottom: 1em;
 }
+.media  {
+    padding: 0 $pad 0 $pad;
+}
+
 // Media queries-----------------------------------------
 
 @media only screen and (min-width: 30em) /* 480px */{
@@ -176,10 +180,34 @@ a.social:hover   {
   }
   /* Opt-in outside padding */
   .grid-pad {
-    padding: $pad 0 $pad $pad;
+    padding: 0 0 $pad $pad;
     [class*='col-']:last-of-type {
       padding-right: $pad;
     }
+  }
+  .media {
+    // margin:10px;
+  }
+
+  .media, .media__body {
+    overflow:hidden;
+    _overflow:visible;
+    zoom:1;
+    padding: 0;
+  }
+
+  .media .media__img {
+    float:left;
+    margin-right: 10px;
+  }
+
+  .media .media__img img{
+    display:block;
+  }
+
+  .media .imgExt{
+    float:right;
+    margin-left: 10px;
   }
 
 }

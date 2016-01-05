@@ -80,8 +80,7 @@ a.social:hover {
 
 .grid {
   /* background: gray; */
-  margin: 0 0 1em 0;
-  padding-left: 0; }
+  margin: 0 0 1em 0; }
 
 .meteor-slides .meteor-buttons {
   bottom: -15px;
@@ -94,12 +93,15 @@ a.social:hover {
   width: auto;
   z-index: 999; }
 
-.panel-home h4 {
+.media h4 {
   font-size: 1.375em;
   text-transform: uppercase; }
 
 .panel-home img {
   margin-bottom: 1em; }
+
+.media {
+  padding: 0 10% 0 10%; }
 
 @media only screen and (min-width: 48em) {
   .site-header {
@@ -117,9 +119,26 @@ a.social:hover {
 
   /* Opt-in outside padding */
   .grid-pad {
-    padding: 10% 0 10% 10%; }
+    padding: 0 0 10% 10%; }
     .grid-pad [class*='col-']:last-of-type {
-      padding-right: 10%; } }
+      padding-right: 10%; }
+
+  .media, .media__body {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+    padding: 0; }
+
+  .media .media__img {
+    float: left;
+    margin-right: 10px; }
+
+  .media .media__img img {
+    display: block; }
+
+  .media .imgExt {
+    float: right;
+    margin-left: 10px; } }
 /* WIDESCREEN */
 /* Increased body size for legibility */
 @media only screen and (min-width: 87.5em) {
