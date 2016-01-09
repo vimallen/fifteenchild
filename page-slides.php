@@ -15,6 +15,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<?php masterslider ( 1 ); ?>
 <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
 		<?php
 		// Start the loop.
