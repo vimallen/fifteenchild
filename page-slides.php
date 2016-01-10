@@ -15,6 +15,10 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<div class="woven">
+			<img src="<?php echo bloginfo('stylesheet_directory'); ?>/images/woven.png" alt="home page" />
+			</div>
+
 			<?php masterslider ( 1 ); ?>
 
 		<?php
