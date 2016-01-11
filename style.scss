@@ -111,17 +111,23 @@ a.social:hover   {
 
 }
 
-.meteor-slides .meteor-buttons {
-    bottom: -15px;
-		box-sizing: initial;
-    height: 9px;
-    left: 0;
-    margin-left: 7.5em;
-    padding: 6px 0 0;
-    position: absolute;
-    width: auto; // originally 100% which caused horizontal scrollbar
-    z-index: 999;
+.ms-info  {
+              font-size: 1em;
+              text-shadow: 1px 1px 2px #000;
+              margin-left: 15%;
 }
+
+// .meteor-slides .meteor-buttons {
+//     bottom: -15px;
+// 		box-sizing: initial;
+//     height: 9px;
+//     left: 0;
+//     margin-left: 7.5em;
+//     padding: 6px 0 0;
+//     position: absolute;
+//     width: auto; // originally 100% which caused horizontal scrollbar
+//     z-index: 999;
+// }
 
 // .panel-home  {
 //   position:relative;
@@ -142,6 +148,13 @@ a.social:hover   {
 }
 .media  {
     padding: 0 $pad 0 $pad;
+}
+
+.woven	{
+		display: none;
+}
+.woven	img	{
+			border: 0;
 }
 
 // Media queries-----------------------------------------
@@ -212,9 +225,10 @@ a.social:hover   {
   		display: block;
   		border: none;
   		position: absolute;
-  		right:0;
+  		right:2em;
   		top:0;
       z-index: 1000;
+      background-color: rgb(227, 230, 231);
   }
 
 }
@@ -242,11 +256,6 @@ a.social:hover   {
      body {font-size:120%;}
 
 }
-
-
-
-
-
 
 // helpers
 .hidden {
