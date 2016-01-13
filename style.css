@@ -147,7 +147,10 @@ a.social:hover {
     right: 2em;
     top: 0;
     z-index: 1000;
-    background-color: #e3e6e7; } }
+    background-color: #e3e6e7;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 0.3125em;
+    box-shadow: 0px 1px 5px 2px #ccc; } }
 /* WIDESCREEN */
 /* Increased body size for legibility */
 @media only screen and (min-width: 87.5em) {
